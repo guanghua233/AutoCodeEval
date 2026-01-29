@@ -1,0 +1,31 @@
+# Core
+numpy>=2.0
+tqdm>=4.60
+pyyaml>=6.0
+
+# LLM / Tokenizer
+torch>=2.0
+transformers>=4.35
+tokenizers>=0.20
+tiktoken>=0.7
+accelerate>=0.25
+safetensors>=0.4
+huggingface-hub>=0.23
+sentencepiece>=0.2.0
+
+# Inference backend (optional but used by eval scripts)
+vllm>=0.4
+
+# C/Java parsing & analysis
+clang>=16
+tree-sitter>=0.22
+tree-sitter-languages>=1.7
+javalang>=0.13
+lizard>=1.17
+
+# Graph / DB 
+py2neo>=2021.2.4
+
+# Evaluation
+python-Levenshtein>=0.20
+RapidFuzz>=3.0
